@@ -1,0 +1,59 @@
+.extremos {
+    background-color: teal;
+    text-align: center;
+    color: white;
+    left: 0%;
+    border-top: teal solid 1em;
+    border-bottom: teal solid 1em;
+}
+
+.always {
+    position: fixed;
+    width: 100%;
+}
+
+@media (min-width: 0px) {
+    .f1 {
+        font-size: small;
+    }
+
+    .f2 {
+        font-size: x-large;
+    }
+
+    .b2 {
+        border-left: white 1em solid;
+        border-right: white 1em solid;
+    }
+}
+
+@media (min-width: 768px) {
+    .f3 {
+        font-size: medium;
+    }
+
+    .f4 {
+        font-size: xx-large;
+    }
+
+    .b1 {
+        border-left: white 3em solid;
+        border-right: white 3em solid;
+    }
+}
+
+#container {
+    padding-top: 8em;
+}
+
+.item {
+    border-top: solid rgb(218, 218, 218) 2px;
+    padding-bottom: 1em;
+}
+
+.info {
+    color: rgb(43, 43, 43);
+    font-size: small;
+    padding-top: 0.5em;
+    text-align: right;
+}
